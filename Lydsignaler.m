@@ -155,7 +155,7 @@ function y = addBass(x, fs)
 end
 
 function y = compressor(x, threshold, ratio, fs)
-    % Simple compressor function
+    % Compressor function
     x_abs = abs(x);
     y = x;
     for i = 1:length(x)
